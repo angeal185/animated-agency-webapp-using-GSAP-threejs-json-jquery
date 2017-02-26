@@ -1,0 +1,235 @@
+var mainTplData = [
+	{
+		"email":"info@admin.com"
+	}
+];
+
+var navTplData = [
+	{
+		"href":"header",
+		"title":"Home",
+	},{
+		"href":"about",
+		"title":"About",
+	},{
+		"href":"skills",
+		"title":"Skills",
+	},{
+		"href":"promise",
+		"title":"Promise",
+	},{
+		"href":"clients",
+		"title":"Clients",
+	},{
+		"href":"contact",
+		"title":"Contact",
+	}
+];
+
+var skillsTplData = [
+	{
+		"letter":"A",
+		"title":"Add title here",
+		"l1":"",
+		"l2":"",
+		"l3":"",
+		"l4":"",
+		"l5":"",
+		"l6":"",
+		"l7":"",
+		"l8":""
+	},{
+		"letter":"B",
+		"title":"Add title here",
+		"l1":"",
+		"l2":"",
+		"l3":"",
+		"l4":"",
+		"l5":"",
+		"l6":"",
+		"l7":"",
+		"l8":""
+	},{
+		"letter":"C",
+		"title":"Add title here",
+		"l1":"",
+		"l2":"",
+		"l3":"",
+		"l4":"",
+		"l5":"",
+		"l6":"",
+		"l7":"",
+		"l8":""
+	},{
+		"letter":"D",
+		"title":"Add title here",
+		"l1":"",
+		"l2":"",
+		"l3":"",
+		"l4":"",
+		"l5":"",
+		"l6":"",
+		"l7":"",
+		"l8":""
+	},{
+		"letter":"E",
+		"title":"Add title here",
+		"l1":"",
+		"l2":"",
+		"l3":"",
+		"l4":"",
+		"l5":"",
+		"l6":"",
+		"l7":"",
+		"l8":""
+	},{
+		"letter":"F",
+		"title":"Add title here",
+		"l1":"",
+		"l2":"",
+		"l3":"",
+		"l4":"",
+		"l5":"",
+		"l6":"",
+		"l7":"",
+		"l8":""
+	}
+];
+
+var promiseTplData = [
+	{
+		"letter":"A",
+		"title":"Add title here",
+		"desctiption":""
+	},{
+		"letter":"B",
+		"title":"Add title here",
+		"desctiption":""
+	}, {
+		"letter":"C",
+		"title":"Add title here",
+		"desctiption":""
+	}, {
+		"letter":"D",
+		"title":"Add title here",
+		"desctiption":""
+	} 
+];
+
+var clientTplData = [
+	{
+		"img":"a2a.png",
+	},{
+		"img":"a2a.png",
+	},{
+		"img":"a2a.png",
+	},{
+		"img":"a2a.png",
+	},{
+		"img":"a2a.png",
+	},{
+		"img":"a2a.png",
+	},{
+		"img":"a2a.png",
+	},{
+		"img":"a2a.png",
+	},{
+		"img":"a2a.png",
+	},{
+		"img":"a2a.png",
+	},{
+		"img":"a2a.png",
+	},{
+		"img":"a2a.png",
+	},{
+		"img":"a2a.png",
+	},{
+		"img":"a2a.png",
+	},{
+		"img":"a2a.png",
+	},{
+		"img":"a2a.png",
+	},{
+		"img":"a2a.png",
+	},{
+		"img":"a2a.png",
+	},{
+		"img":"a2a.png",
+	},{
+		"img":"a2a.png",
+	},{
+		"img":"a2a.png",
+	},{
+		"img":"a2a.png",
+	},{
+		"img":"a2a.png",
+	},{
+		"img":"a2a.png",
+	},{
+		"img":"a2a.png",
+	},{
+		"img":"a2a.png",
+	},{
+		"img":"a2a.png",
+	},{
+		"img":"a2a.png",
+	},{
+		"img":"a2a.png",
+	},{
+		"img":"a2a.png",
+	},{
+		"img":"a2a.png",
+	},{
+		"img":"a2a.png",
+	},{
+		"img":"a2a.png",
+	},{
+		"img":"a2a.png",
+	},{
+		"img":"a2a.png",
+	},{
+		"img":"a2a.png",
+	},{
+		"img":"a2a.png",
+	},{
+		"img":"a2a.png",
+	},{
+		"img":"a2a.png",
+	},{
+		"img":"a2a.png",
+	}
+]
+
+var followTplData = [
+	{
+		"title":"FACEBOOK",
+		"href":"#",
+		"icon":"facebook",
+		"address":"facebook.com"
+	},{
+		"title":"TWITTER",
+		"href":"#",
+		"icon":"twitter",
+		"address":"twitter.com"
+	}, {
+		"title":"LINKEDIN",
+		"href":"#",
+		"icon":"linkedin",
+		"address":"linkedin.com"
+	}, {
+		"title":"GITHUB",
+		"href":"#",
+		"icon":"github",
+		"address":"github.com"
+	}, {
+		"title":"CODEPEN",
+		"href":"#",
+		"icon":"codepen",
+		"address":"codepen.com"
+	}, {
+		"title":"GITLAB",
+		"href":"#",
+		"icon":"gitlab",
+		"address":"gitlab.com"
+	}
+];

@@ -1,0 +1,574 @@
+var mainTpl = [{
+    "<>": "div",
+    "class": "Header",
+    "html": [{
+        "<>": "div",
+        "class": "Header-logo",
+        "html": ""
+    }, {
+        "<>": "div",
+        "class": "Header-langs",
+        "html": [{
+            "<>": "a",
+            "href": "#",
+            "class": "Header-lang openPrivacyPolicy",
+            "html": "ABOUT"
+        }, {
+            "<>": "a",
+            "href": "#",
+            "class": "Header-lang isActive",
+            "html": "CONTACT"
+        }]
+    }]
+}, {
+    "<>": "nav",
+    "class": "Quick-navigation",
+    "html": ""
+}, {
+    "<>": "section",
+    "class": "Slide bg--dark bg--gradient Hero",
+    "html": [{
+        "<>": "div",
+        "class": "Slide-title smallTitle",
+        "html": ""
+    }, {
+        "<>": "div",
+        "class": "Slide-content",
+        "html": [{
+            "<>": "div",
+            "class": "Hero-content",
+            "html": [{
+                "<>": "div",
+                "class": "Hero-wrapper",
+                "html": [{
+                    "<>": "div",
+                    "class": "Hero-logo",
+                    "html": [{
+                        "<>": "div",
+                        "class": "Icon-wrapper",
+                        "html": [{
+                            "<>": "div",
+                            "class": "Icon-logo",
+                            "html": [{
+                                "<>": "div",
+                                "data-letter": "A",
+                                "class": "Icon-letter",
+                                "html": ""
+                            }, {
+                                "<>": "div",
+                                "class": "Icon-title",
+                                "html": ""
+                            }]
+                        }]
+                    }, {
+                        "<>": "div",
+                        "aria-hidden": "",
+                        "class": "Icon-shadow",
+                        "html": ""
+                    }]
+                }, {
+                    "<>": "div",
+                    "class": "Hero-claim",
+                    "data-lorem": "1s",
+                    "html": ""
+                }]
+            }]
+        }]
+    }]
+}, {
+    "<>": "section",
+    "id": "about",
+    "class": "Slide js-scroll-step",
+    "html": [{
+        "<>": "div",
+        "class": "Slide-title smallTitle",
+        "data-lorem": "5w",
+        "html": ""
+    }, {
+        "<>": "div",
+        "class": "Welcome container",
+        "html": [{
+            "<>": "div",
+            "class": "col-inner",
+            "html": [{
+                "<>": "div",
+                "class": "col-md-8 col-md-offset-2",
+                "html": [{
+                    "<>": "div",
+                    "class": "Welcome-text",
+                    "html": [{
+                        "<>": "h2",
+                        "class": "Welcome-title",
+                        "data-lorem": "1s",
+                        "html": ""
+                    }, {
+                        "<>": "div",
+                        "class": "col col-md-6",
+                        "html": [{
+                            "<>": "p",
+                            "data-lorem": "2p",
+                            "html": ""
+                        }]
+                    }, {
+                        "<>": "div",
+                        "class": "col col-md-6",
+                        "html": [{
+                            "<>": "p",
+                            "data-lorem": "2p",
+                            "html": ""
+                        }]
+                    }]
+                }]
+            }]
+        }]
+    }]
+}, {
+    "<>": "section",
+    "id": "skills",
+    "class": "Slide Slide--Skills bg--dark bg--gradient js-scroll-step",
+    "html": [{
+        "<>": "div",
+        "class": "Slide-title smallTitle",
+        "data-lorem": "2w",
+        "html": ""
+    }, {
+        "<>": "div",
+        "class": "Skills",
+        "html": [{
+            "<>": "div",
+            "class": "Skills-wrapper",
+            "html": [{
+                "<>": "div",
+                "class": "Skills-nav",
+                "html": [{
+                    "<>": "div",
+                    "data-nav": "forward",
+                    "class": "Skills-control Skills-controlNext",
+                    "html": ""
+                }, {
+                    "<>": "div",
+                    "data-nav": "backward",
+                    "class": "Skills-control Skills-controlPrev",
+                    "html": ""
+                }]
+            }, {
+                "<>": "div",
+                "class": "Skills-sliderScaler",
+                "html": [{
+                    "<>": "div",
+                    "class": "Skills-slider",
+                    "html": ""
+                }]
+            }]
+        }]
+    }]
+}, {
+    "<>": "section",
+    "id": "promise",
+    "class": "Slide sec js-scroll-step",
+    "html": [{
+        "<>": "div",
+        "class": "Slide-title smallTitle",
+        "data-lorem": "2w",
+        "html": ""
+    }, {
+        "<>": "div",
+        "class": "Slide-content",
+        "html": [{
+            "<>": "div",
+            "class": "sec-container container",
+            "html": [{
+                "<>": "div",
+                "class": "column-inner",
+                "html": [{
+                    "<>": "div",
+                    "id": "promiseTpl",
+                    "class": "col-md-10 col-md-offset-1",
+                    "html": ""
+                }]
+            }]
+        }]
+    }]
+}, {
+    "<>": "section",
+    "id": "clients",
+    "class": "Slide Clients bg--dark js-scroll-step",
+    "html": [{
+        "<>": "div",
+        "class": "Slide-title smallTitle",
+        "html": "Clients"
+    }, {
+        "<>": "div",
+        "class": "Slide-content",
+        "html": [{
+            "<>": "div",
+            "id": "clientTpl",
+            "class": "container",
+            "html": ""
+        }]
+    }]
+}, {
+    "<>": "section",
+    "id": "contact",
+    "class": "Slide js-scroll-step",
+    "html": [{
+        "<>": "div",
+        "class": "Slide-title smallTitle",
+        "html": "Contact"
+    }, {
+        "<>": "div",
+        "class": "Slide-content",
+        "html": [{
+            "<>": "div",
+            "class": "Contact",
+            "html": [{
+                "<>": "div",
+                "class": "container",
+                "html": [{
+                    "<>": "div",
+                    "class": "col-md-offset-1 col-md-3",
+                    "html": [{
+                        "<>": "div",
+                        "class": "Contact-box",
+                        "html": [{
+                            "<>": "div",
+                            "class": "Contact-boxWrapper noPaddingBottom",
+                            "html": [{
+                                "<>": "h2",
+                                "class": "Contact-title",
+                                "html": "website"
+                            }]
+                        }, {
+                            "<>": "hr",
+                            "class": "Contact-sep",
+                            "html": ""
+                        }, {
+                            "<>": "div",
+                            "class": "Contact-boxWrapper",
+                            "html": [{
+                                "<>": "h3",
+                                "class": "Contact-smallTitle smallTitle",
+                                "html": "Location"
+                            }, {
+                                "<>": "p",
+                                "html": "00, street name"
+                            }, {
+                                "<>": "p",
+                                "html": "0000 city,country"
+                            }, {
+                                "<>": "div",
+                                "class": "Contact-item",
+                                "html": [{
+                                    "<>": "a",
+                                    "href": "mailto:${email}",
+                                    "html": [{
+                                        "<>": "i",
+                                        "class": "Contact-icon fa fa-envelope-o",
+                                        "html": ""
+                                    }, {
+                                        "<>": "em",
+                                        "html": "${email}"
+                                    }]
+                                }]
+                            }, {
+                                "<>": "div",
+                                "class": "Contact-item",
+                                "html": [{
+                                    "<>": "a",
+                                    "href": "mailto:${email}",
+                                    "html": [{
+                                        "<>": "i",
+                                        "class": "Contact-icon fa fa-envelope-o",
+                                        "html": ""
+                                    }, {
+                                        "<>": "em",
+                                        "html": "${email}"
+                                    }]
+                                }]
+                            }]
+                        }, {
+                            "<>": "hr",
+                            "class": "Contact-sep",
+                            "html": ""
+                        }, {
+                            "<>": "div",
+                            "class": "Contact-boxWrapper",
+                            "html": [{
+                                "<>": "h3",
+                                "class": "Contact-smallTitle smallTitle",
+                                "html": "Our Locations"
+                            }, {
+                                "<>": "div",
+                                "class": "Contact-icn",
+                                "html": [{
+                                    "<>": "a",
+                                    "href": "#",
+                                    "target": "_blank",
+                                    "class": "Contact-area",
+                                    "html": "Milano"
+                                }, {
+                                    "<>": "a",
+                                    "href": "#",
+                                    "target": "_blank",
+                                    "class": "Contact-area",
+                                    "html": "Torino"
+                                }]
+                            }]
+                        }]
+                    }]
+                }, {
+                    "<>": "div",
+                    "class": "col-md-offset-1 col-md-6",
+                    "html": [{
+                        "<>": "div",
+                        "class": "col-inner",
+                        "html": [{
+                            "<>": "div",
+                            "id": "follow",
+                            "class": "Contact-block",
+                            "html": [{
+                                "<>": "h2",
+                                "class": "Contact-title",
+                                "html": "Follow"
+                            }]
+                        }, {
+                            "<>": "div",
+                            "class": "Contact-block",
+                            "html": [{
+                                "<>": "h2",
+                                "class": "Contact-title",
+                                "data-lorem": "3w",
+                                "html": ""
+                            }, {
+                                "<>": "p",
+                                "class": "Contact-lavoraConNoi",
+                                "data-lorem": "1s",
+                                "html": ""
+                            }, {
+                                "<>": "div",
+                                "class": "Contact-item",
+                                "html": [{
+                                    "<>": "a",
+                                    "href": "mailto:cv@website.com",
+                                    "html": [{
+                                        "<>": "i",
+                                        "class": "Contact-icon fa fa-envelope-o",
+                                        "html": ""
+                                    }, {
+                                        "<>": "em",
+                                        "html": "${email}"
+                                    }]
+                                }]
+                            }]
+                        }]
+                    }]
+                }]
+            }]
+        }]
+    }]
+}, {
+    "<>": "div",
+    "class": "Footer bg--dark",
+    "html": [{
+        "<>": "div",
+        "class": "container",
+        "html": [{
+            "<>": "div",
+            "class": "Footer-intestazione",
+            "html": "2017 Ben Eaves"
+        }]
+    }]
+}, {
+    "<>": "div",
+    "class": "Hero-canvas",
+    "html": ""
+}, {
+    "<>": "div",
+    "class": "Privacy-close",
+    "html": [{
+        "<>": "i",
+        "class": "fa fa-2x fa-close",
+        "html": ""
+    }]
+}, {
+    "<>": "div",
+    "class": "Privacy",
+    "html": [{
+        "<>": "div",
+        "class": "Privacy-wrapper",
+        "html": [{
+            "<>": "h3",
+            "class": "Privacy-title smallTitle",
+            "data-lorem": "3w",
+            "html": ""
+        }, {
+            "<>": "p",
+            "data-lorem": "2p",
+            "html": ""
+        }, {
+            "<>": "div",
+            "class": "smallTitle Privacy-title",
+            "data-lorem": "3w",
+            "html": ""
+        }, {
+            "<>": "p",
+            "data-lorem": "2p",
+            "html": ""
+        }]
+    }]
+}];
+
+var navTpl = {
+    "<>": "a",
+    "href": "#${href}",
+    "class": "Quick-navigation-item",
+    "html": "${title}"
+};
+
+var skillsTpl = {
+    "<>": "div",
+    "class": "Skills-slide",
+    "html": [{
+        "<>": "div",
+        "class": "Skills-container",
+        "html": [{
+            "<>": "div",
+            "class": "Icon-wrapper",
+            "html": [{
+                "<>": "div",
+                "class": "Icon-logo",
+                "html": [{
+                    "<>": "div",
+                    "data-letter": "${letter}",
+                    "class": "Icon-letter",
+                    "html": ""
+                }, {
+                    "<>": "div",
+                    "class": "Icon-title",
+                    "html": "${title}"
+                }, {
+                    "<>": "ul",
+                    "class": "Icon-copy",
+                    "html": [{
+                        "<>": "li",
+                        "data-lorem": "4w",
+                        "html": "${l1}"
+                    }, {
+                        "<>": "li",
+                        "data-lorem": "4w",
+                        "html": "${l2}"
+                    }, {
+                        "<>": "li",
+                        "data-lorem": "4w",
+                        "html": "${l3}"
+                    }, {
+                        "<>": "li",
+                        "data-lorem": "4w",
+                        "html": "${l4}"
+                    }, {
+                        "<>": "li",
+                        "data-lorem": "4w",
+                        "html": "${l5}"
+                    }, {
+                        "<>": "li",
+                        "data-lorem": "4w",
+                        "html": "${l6}"
+                    }, {
+                        "<>": "li",
+                        "data-lorem": "4w",
+                        "html": "${l7}"
+                    }, {
+                        "<>": "li",
+                        "data-lorem": "4w",
+                        "html": "${l8}"
+                    }]
+                }]
+            }]
+        }]
+    }]
+};
+
+var promiseTpl = {
+    "<>": "div",
+    "class": "col-sm-6 col-md-3",
+    "html": [{
+        "<>": "div",
+        "class": "sec-icon",
+        "html": [{
+            "<>": "div",
+            "class": "Icon-wrapper",
+            "html": [{
+                "<>": "div",
+                "class": "Icon-logo",
+                "html": [{
+                    "<>": "div",
+                    "data-letter": "${letter}",
+                    "class": "Icon-letter",
+                    "html": ""
+                }, {
+                    "<>": "div",
+                    "class": "Icon-title",
+                    "html": ""
+                }]
+            }]
+        }]
+    }, {
+        "<>": "div",
+        "class": "sec-content",
+        "html": [{
+            "<>": "div",
+            "class": "sec-title",
+            "html": "${title}"
+        }, {
+            "<>": "div",
+            "class": "sec-text",
+            "data-lorem": "1s",
+            "html": "${description}"
+        }]
+    }]
+}
+
+var clientTpl = {
+    "<>": "div",
+    "data-index": "null",
+    "class": "Clients-client",
+    "html": [{
+        "<>": "div",
+        "class": "client",
+        "html": [{
+            "<>": "div",
+            "class": "client-wrapper",
+            "html": [{
+                "<>": "img",
+                "src": "images/Clients/${img}",
+                "html": ""
+            }]
+        }]
+    }]
+};
+
+var followTpl = {
+    "<>": "div",
+    "class": "col-md-third",
+    "html": [{
+        "<>": "h3",
+        "class": "Contact-smallTitle smallTitle",
+        "html": "${title}"
+    }, {
+        "<>": "div",
+        "class": "Contact-item",
+        "html": [{
+            "<>": "a",
+            "href": "${href}",
+            "target": "_blank",
+            "html": [{
+                "<>": "i",
+                "class": "Contact-icon fa fa-${icon}",
+                "html": ""
+            }, {
+                "<>": "span",
+                "html": "${address}"
+            }]
+        }]
+    }]
+};
